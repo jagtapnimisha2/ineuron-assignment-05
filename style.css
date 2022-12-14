@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* body{
+    background-color: red;
+} */
+nav div{
+    display: inline;
+}
+.list{
+    display: inline;
+    position: relative;
+    left: 15%;
+}
+.list-item{
+    display: inline;
+    color: azure;
+    margin-left: 40px;
+    font-size: large;
+}
+/* .arrow{
+    border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+} */
+.navbar{
+    background-color: black;
+    height: 70px;
+}
+.line{
+    position: relative;
+    background-color: #fff;
+    font-size: 36px;
+    top: 10px;
+    color: #fff;
+    /* border: solid white; */
+    left: 11%;
+    
+    
+    
+}
+.logo{
+    /* width: 50?px; */
+    position: relative;
+    /* height: px; */
+    width: 120px;
+    top: 20px;
+    left: 5%;
+}
+.button-small{
+    position: absolute;
+    /* left: 55%; */
+    height: 40px;
+    width: 150px;
+    top: 15px;
+    right: 8%;
+    background-color:  rgb(206, 58, 206);
+    border: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: medium;
+    font-weight: bold;
+}
+.button-large{
+    position: relative;
+    height: 50px;
+    width: 250px;
+    top: 160px;
+    left: 40%;
+    background-color:  rgb(206, 58, 206);
+    border: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: large;
+    font-weight: bold;
+}
+sub{
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 2px;
+}
+
+div h1,p{
+    display: block;
+    text-align: center;
+    /* top: 500px; */
+
+}
+.hero-heading{
+    
+    position: relative;
+    top: 40px;
+    font-size: 80px;
+    width: 55%;
+    left: 20.5%;
+    color: whitesmoke;
+}
+.hero-description{
+    position: relative;
+    top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    width: 55%;
+    left: 20.5%;
+    color: whitesmoke;
+}
+body{
+    background-image: url(./assets/bg.png) ;
+    /* height: 500px; */
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+}
